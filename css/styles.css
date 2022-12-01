@@ -13,6 +13,12 @@ h1 {
        font-size: 60px;
 }
 
+h6 {
+       font-size: 16px;
+       margin: 0;
+       font-weight: bold;
+}
+
 /* -----------------------------------------------Header start ---------------------------------------------------- */
 .header__bg {
        position: relative;
@@ -43,6 +49,7 @@ h1 {
 .header__btn {
        background: gainsboro;
        width: 20%;
+       height: 30px;
        border-radius: 15px;
 }
 
@@ -78,6 +85,10 @@ h1 {
 
 .skills__list_item {
        padding-bottom: 3%;
+}
+
+.info__list {
+       list-style-type: none;
 }
 /* -------------------------------------------------Sidebar end--------------------- */
 
@@ -157,7 +168,7 @@ h1 {
 .content__btn {
        background: gainsboro;
        width: 50%;
-       height: 20px;
+       height: 30px;
        border-radius: 15px;
 }
 
@@ -191,6 +202,7 @@ h1 {
 
 .features__list li{
        list-style-type: none;
+       margin: 5%;
 }
 
 .features__title {
