@@ -1,0 +1,232 @@
+/* font-family: 'Open Sans', sans-serif;
+ */
+body {
+       margin: 0;
+       padding: 0;
+}
+
+* {
+       font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+       font-size: 60px;
+}
+
+/* -----------------------------------------------Header start ---------------------------------------------------- */
+.header__bg {
+       position: relative;
+       z-index: -1;
+}
+
+.header__title p{
+       font-size: 30px;
+}
+
+.header__title {
+       position: absolute;
+       top: 25%;
+       color: white;
+       left: 35%;
+       height: 50%;
+}
+
+.header__form {
+       position: absolute;
+       top: 70%;
+       left: 35%;
+       color: white;
+       width: 35%;
+       justify-content: space-between;
+}
+
+.header__btn {
+       background: gainsboro;
+       width: 20%;
+       border-radius: 15px;
+}
+
+.header__form a {
+       color: white;
+}
+
+.header__bg_img {
+       width: 100%;
+       height: 60%;
+}
+
+
+/* ------------------------------------------Header end---------------------------------- */
+
+
+/* -------------------------------------------------Sidebar start--------------------- */
+.sidebar {
+       position: absolute;
+       right: 2%;
+       top: 25%;
+       background: gainsboro;
+       height: min-content;
+       padding: 3%;
+       border-radius: 10px;
+       width: 20%;
+}
+
+.skills__list {
+       list-style-type: none;
+       padding-left: 0;
+}
+
+.skills__list_item {
+       padding-bottom: 3%;
+}
+/* -------------------------------------------------Sidebar end--------------------- */
+
+
+/* ----------------------------------------------------------------Navbar start--------------------------------- */
+
+.navbar__img {
+       width: 50px;
+}
+
+.navbar__avatar_img {
+       width: 100px;
+}
+.navbar {
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+}
+
+.navbar__main {
+       width: 80%;
+       display: flex;
+       justify-content: space-between;
+       margin: auto;
+       align-items: center;
+}
+
+.navbar__list_left {
+       display: flex;
+       list-style-type: none;
+       width: 35%;
+       justify-content: space-between;
+
+}
+
+.navbar__list_right {
+       display: flex;
+       list-style-type: none;
+       width: 35%;
+       justify-content: space-between;
+}
+
+.navbar__list_item {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 33.33%;
+}
+
+.navbar__list_item a {
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+}
+.navbar__avatar-box {
+       border: 2px solid silver;
+       border-radius: 50%;
+       background-color: goldenrod;
+}
+/* ---------------------------------------------------Navbar end---------- */
+
+/* -------------------------------Content start--------------------------- */
+.content {
+       display: flex;
+       justify-content: space-between;
+       width: 60%;
+       margin: 3% auto;
+}
+
+.content__block {
+       width: 40%;
+       border: 5px solid goldenrod;
+       width: 30%;
+       padding: 5%;
+}
+
+.content__btn {
+       background: gainsboro;
+       width: 50%;
+       height: 20px;
+       border-radius: 15px;
+}
+
+
+/* -------------------------------Content end--------------------------- */
+
+
+/* -------------------------------Features start--------------------------- */
+
+
+.features__img {
+       width: 50px;
+}
+
+.features {
+       width: 60%;
+       margin: 3% auto;
+       display: flex;
+}
+
+.features__block {
+       margin: auto;
+       border: 5px solid goldenrod;
+       width: 30%;
+       padding: 5%;
+}
+
+.features__list {
+       margin: 5%;
+}
+
+.features__list li{
+       list-style-type: none;
+}
+
+.features__title {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+}
+
+.features__list_item {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       width: 60%;
+       padding: auto 5%;
+}
+
+/* --------------------------------------------Footer start--------------------------------------- */
+footer {
+    display: flex;
+    background-color: goldenrod;
+    margin: 0 auto;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer__block {
+       display: flex;
+       width: 80%;
+       margin: auto;
+       justify-content: space-between;
+       align-items: center;
+  }
+
+  .footer__icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+  }
